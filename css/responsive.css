@@ -1,0 +1,901 @@
+/* Minimum screen size 375px */
+@media screen and (max-width: 320px) {
+  .browse-categories-layout {
+    grid-template-columns: auto;
+    width: inherit;
+  }
+
+  .browse-categories-img {
+    min-width: 5rem;
+  }
+
+  .browse-categories-card-bottom {
+    min-width: 5rem;
+  }
+}
+
+/* Minimum screen size 834px - Tablet */
+@media screen and (min-width: 834px) {
+  nav {
+    padding: 1.5em 5em;
+  }
+
+  h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3.8rem;
+    line-height: 4.56rem;
+    margin-bottom: 2rem;
+  }
+
+  .width-315 {
+    max-width: inherit;
+  }
+
+  .container {
+    padding-left: 7.2em;
+    padding-right: 7.2em;
+  }
+
+  .hero-container {
+    padding-top: 8em;
+    padding-bottom: 8em;
+  }
+
+  .hero-card-img {
+    width: 33rem;
+    min-height: 22.1rem;
+  }
+
+  .avatar-card-bottom {
+    width: 33rem;
+  }
+
+  .hero {
+    grid-area: hero-left;
+  }
+
+  .button-total-container {
+    width: 31.5rem;
+  }
+
+  .nft-card {
+    grid-area: card-right;
+  }
+
+  .hero-nft {
+    column-gap: 3.8rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'hero-left card-right'
+      '. card-right';
+  }
+
+  .hero .text {
+    margin-bottom: 2rem;
+  }
+
+  .button-total-container .btn-primary {
+    margin-bottom: 2rem;
+    display: flex;
+    margin-left: 0;
+    width: 22.4rem;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   Trending collection section
+   
+  +++++++++++++++++++++++++++++++++*/
+
+  .trending-collection-article {
+    padding-top: 4rem;
+  }
+
+  .trending-wrapper {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .trending-colletion-primary-img {
+    width: 33rem;
+  }
+
+  .nft-img {
+    width: 10rem;
+  }
+
+  .btn-more {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .trending-hidden-tablet {
+    display: inline-block;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   top creators section
+
+  +++++++++++++++++++++++++++++++++*/
+
+  .card-hidden-mobile {
+    display: flex;
+  }
+
+  .creator-card {
+    margin-bottom: 3rem;
+    width: 33rem;
+  }
+
+  .creators-section .btn-secondary {
+    width: 24.7rem;
+    padding: 0.9em 3em;
+    max-height: 6rem;
+    margin-top: 3.4rem;
+    margin-right: 0;
+  }
+
+  .creators-section-cards-container {
+    grid-area: full;
+  }
+
+  .creators-section {
+    gap: 0 4rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+      '. .'
+      'full full';
+  }
+
+  .creators-section-cards-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3rem;
+  }
+
+  .no-margin {
+    margin-bottom: 0;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   Browse categories section
+
+  +++++++++++++++++++++++++++++++++*/
+
+  .browse-categories-layout.grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    width: 100%;
+  }
+
+  .card-extended {
+    padding-bottom: 4.7rem;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   Discover More NFTs section
+
+  +++++++++++++++++++++++++++++++++*/
+
+  .discover-cards-wrapper {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 0;
+    grid-area: full;
+  }
+
+  .card-hidden-tablet-2 {
+    display: none;
+  }
+
+  .discover-more-nfts-img {
+    width: 33rem;
+    min-height: 29.5rem;
+    object-fit: cover;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+  }
+
+  .discover-more-nfts-bottom-container {
+    max-width: 33rem;
+  }
+
+  .discover-more-nfts-bottom-container {
+    padding: 2rem 3rem 2.5rem;
+    min-height: 17.3rem;
+  }
+
+  .heading-text-container {
+    align-self: end;
+    margin-left: 0;
+  }
+
+  .discover-more-nfts-section .btn-secondary {
+    width: 18.7rem;
+    max-height: 6rem;
+    margin-top: 3.4rem;
+    margin-bottom: 4rem;
+    margin-right: inherit;
+  }
+
+  .discover-more-nfts-section {
+    gap: 0 4rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+      '. btn-right'
+      'full full';
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+  Magic Mushrooms section
+
+  +++++++++++++++++++++++++++++++++*/
+
+  .magic-section {
+    background: url('../img/NFT-Highlight.avif') no-repeat center top;
+    padding-top: 36rem;
+    padding-left: 8.2em;
+    padding-right: 8.2em;
+    padding-bottom: 6em;
+    min-height: 60rem;
+  }
+
+  .magic-heading {
+    text-shadow: inherit;
+  }
+
+  .btn-third {
+    width: 19.8rem;
+    margin-left: 0;
+  }
+
+  .time-countdown-container {
+    grid-area: timer-right;
+    width: 29.5rem;
+    max-height: 14.4rem;
+    display: flex;
+    flex-direction: column;
+    align-self: end;
+    margin-bottom: 0;
+  }
+
+  .magic-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+      '. timer-right'
+      '. timer-right'
+      '. timer-right';
+    justify-content: space-between;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+  How it works section
+
+  +++++++++++++++++++++++++++++++++*/
+
+  .hiw-cards-wrapper {
+    flex-direction: row;
+    gap: 3rem;
+  }
+
+  .how-it-works-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 1em 1.7em 3em;
+    margin-bottom: 0;
+    width: 21rem;
+    min-height: 32rem;
+  }
+
+  .how-it-works-img {
+    min-width: 16rem;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+  Join our weekly digest section
+
+  +++++++++++++++++++++++++++++++++*/
+  .join-section {
+    padding-bottom: 8em;
+  }
+
+  .join-wrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    background-color: var(--secondary-color);
+    padding: 4rem 3rem;
+    border-radius: 2rem;
+  }
+
+  .astro-img {
+    max-height: 28rem;
+    width: 30rem;
+    margin-bottom: 0;
+    object-fit: cover;
+    border-radius: 2rem;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+  Footer section
+
+  +++++++++++++++++++++++++++++++++*/
+
+  .footer-form-container {
+    margin-bottom: 4.9rem;
+    display: flex;
+  }
+
+  #emailAddress2 {
+    padding: 1.9rem 2rem;
+    min-width: 42rem;
+    margin-bottom: 0;
+  }
+
+  footer .btn-subscribe {
+    padding: 1.9rem 2rem;
+    width: 17.9rem;
+    position: absolute;
+    margin-left: 241px;
+    transition: all 0.3s ease;
+  }
+
+  footer .btn-subscribe:hover {
+    transform: scale(0.95);
+    transform-origin: center;
+  }
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+          Minimum screen size 1280px - Desktop
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+@media screen and (min-width: 1280px) {
+  .container {
+    padding: 8em 11.5em;
+  }
+
+  nav {
+    padding: 2em 5em;
+  }
+
+  .logo {
+    width: 24.341rem;
+    min-height: 3.2rem;
+  }
+
+  .nav-burger {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    color: var(--text);
+    font-family: var(--work-sans);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    padding: 0 2rem;
+    gap: 5rem;
+    align-items: center;
+  }
+
+  .btn-sign-up {
+    background-color: var(--cta-color);
+    border: 0.2rem solid var(--cta-color);
+    color: var(--text);
+    width: 15.2rem;
+    min-height: 6rem;
+    border-radius: 2rem;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--work-sans);
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    gap: 1.2rem;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   Hero section
+   
+  +++++++++++++++++++++++++++++++++*/
+
+  h1 {
+    font-size: 6.7rem;
+    line-height: 7.37rem;
+  }
+
+  .text {
+    font-family: var(--work-sans);
+    font-size: 2.2rem;
+    line-height: 3.52rem;
+  }
+
+  .hero {
+    max-width: 50rem;
+  }
+
+  .hero .text {
+    margin-bottom: 3rem;
+  }
+
+  .button-total-container {
+    width: 44rem;
+  }
+
+  .button-total-container .btn-primary {
+    margin-bottom: 3rem;
+  }
+
+  .total-auctions-artists-numbers {
+    font-size: 2.8rem;
+    line-height: 3.92rem;
+  }
+
+  .total-auctions-artists-text {
+    font-size: 2.399rem;
+    line-height: 3.838rem;
+  }
+
+  .hero-card-img {
+    min-width: 51rem;
+    min-height: 40.1rem;
+  }
+
+  .avatar-card-bottom {
+    min-width: 51rem;
+  }
+
+  .heading {
+    font-size: 3.8rem;
+    line-height: 4.56rem;
+  }
+
+  .heading-text-container {
+    margin-bottom: 6rem;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   Trending collection section
+   
+  +++++++++++++++++++++++++++++++++*/
+
+  .trending-hidden-desktop {
+    display: inline-block;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   Top creators section
+   
+  +++++++++++++++++++++++++++++++++*/
+
+  .card-hidden-tablet {
+    display: flex;
+  }
+
+  /* ::before img number */
+  .img-number1::before {
+    content: '1';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .img-number2::before {
+    content: '2';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .img-number3::before {
+    content: '3';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .img-number4::before {
+    content: '4';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .img-number5::before {
+    content: '5';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .img-number6::before {
+    content: '6';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .img-number7::before {
+    content: '7';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .img-number8::before {
+    content: '8';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .img-number9::before {
+    content: '9';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .img-number10::before {
+    content: '10';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .img-number11::before {
+    content: '11';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .img-number12::before {
+    content: '12';
+    font-family: var(--space-mono);
+    font-size: 1.6rem;
+    line-height: 2.24rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--caption-label-text);
+    border-radius: 5rem;
+    width: 3rem;
+    height: 3rem;
+    position: absolute;
+    transform: translate(-40px, 0px);
+  }
+
+  .creators-section-cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+  }
+
+  .creator-card {
+    width: inherit;
+    flex-direction: column;
+    text-align: center;
+    width: 24rem;
+    max-height: 23.8rem;
+    margin-bottom: 0;
+  }
+
+  .creators-user-img {
+    width: 12rem;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   Browse categories section
+   
+  +++++++++++++++++++++++++++++++++*/
+
+  .browse-categories-heading {
+    margin-bottom: 6rem;
+  }
+
+  .browse-categories-card-bottom {
+    padding: 2em 2em 2.5em;
+  }
+
+  .card-title {
+    font-size: 2.2rem;
+    line-height: 3.08rem;
+  }
+
+  .mb-tablet {
+    margin-bottom: 0;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   Discover More NFTs section
+   
+  +++++++++++++++++++++++++++++++++*/
+
+  .card-hidden-tablet-2 {
+    display: flex;
+  }
+
+  .discover-more-nfts-bottom-container {
+    margin-bottom: 0;
+  }
+
+  .discover-more-card {
+    margin-bottom: 0;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   Magic mushrooms section
+   
+  +++++++++++++++++++++++++++++++++*/
+
+  .magic-section {
+    background: url('../img/MagicMushroom-desktop.avif');
+    padding: 36em 11.5em 6em;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   How It Works section
+   
+  +++++++++++++++++++++++++++++++++*/
+
+  .hiw-cards-wrapper {
+    justify-content: center;
+  }
+
+  .how-it-works-card {
+    min-width: 33rem;
+    padding: 3em;
+    margin-bottom: 0;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   Join Our Weekly Digest
+   
+  +++++++++++++++++++++++++++++++++*/
+
+  .join-wrapper {
+    display: flex;
+    gap: 8rem;
+    padding: 6em;
+    max-width: 1050px;
+  }
+
+  .astro-img {
+    min-width: 42.5rem;
+  }
+
+  input[type='email'] {
+    padding: 1.9rem;
+    margin-bottom: 0;
+  }
+
+  .btn-subscribe {
+    padding: 1.9rem 4rem;
+    position: absolute;
+    margin-left: 232px;
+    width: inherit;
+    transition: all 0.3s ease;
+  }
+
+  .btn-subscribe:hover {
+    transform: scale(0.95);
+    transform-origin: center;
+  }
+
+  /*+++++++++++++++++++++++++++++++++
+  
+   Footer section
+   
+  +++++++++++++++++++++++++++++++++*/
+
+  .footer-container {
+    padding: 4em 11.529em;
+  }
+
+  .footer-group {
+    display: flex;
+    gap: 3.1rem;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+  }
+
+  .col-1 {
+    width: 25rem;
+  }
+
+  .col-3 {
+    width: 42rem;
+  }
+
+  .footer-logo {
+    margin-bottom: 3rem;
+  }
+
+  .footer-headings {
+    margin-bottom: 2.5rem;
+  }
+
+  .footer-text:nth-last-child(odd) {
+    margin-bottom: 2rem;
+  }
+
+  .footer-text {
+    margin-bottom: 1.5rem;
+  }
+
+  .desktop-set {
+    margin-bottom: 2rem;
+    width: 29rem;
+  }
+
+  .footer-form-container,
+  .explore-links-container,
+  .socials {
+    margin-bottom: 0;
+  }
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+          Minimum screen size 1280px - Full-HD Desktop
+   
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+@media screen and (min-width: 1280px) {
+  html {
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav {
+    padding: 2em 5em;
+  }
+}
